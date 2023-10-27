@@ -5,6 +5,11 @@ ruby "3.2.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.1"
 
+#can ya guess what this does?
+gem 'bootstrap', '~> 5.3', '>= 5.3.2'
+
+#this is required for bootstrap to run according to documentation. idk what it does
+gem 'dartsass-sprockets'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
